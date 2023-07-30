@@ -52,6 +52,10 @@ button {
     color: white;
 }
 
+input:focus {
+    outline: none;
+}
+
 /* End Global */
 
 /* Start Navbar */
@@ -329,6 +333,10 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 @media (max-width: 480px) {
     .services h2 {
         font-size: 50px;
+    }
+    
+    .services .services-cards {
+        gap: 0;
     }
 }
 
