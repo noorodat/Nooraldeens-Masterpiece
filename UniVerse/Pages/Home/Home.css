@@ -289,7 +289,7 @@ nav .links li:hover:not(#login, #discountsLink)::before {
     /* cursor: pointer; */
     margin-bottom: 80px;
     padding: 8px;
-    transition: 0.8s;
+    transition: var(--transition-duration);
 }
 
 .services .services-cards {
@@ -303,7 +303,7 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 }
 
 .services .service img:hover {
-    transform: rotate(360deg);
+    transform: rotate(2deg);
 }
 
 .services .service .image {
@@ -314,8 +314,7 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 
 .services .service img {
     width: 250px;
-    transition: 0.4s;
-    
+    transition: var(--transition-duration);
 }
 
 .services .service p {
