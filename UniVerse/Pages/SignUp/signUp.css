@@ -94,73 +94,7 @@ input:focus {
     outline: none;
 }
 
-/* Start Media */
 
-@media(max-width: 480px) {
 
-    .signUp h2 {
-        margin-top: 200px !important;
-    }
-
-    .signUp {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .signUp .left {
-        width: 90%;
-    }
-    
-    .signUp .right {
-        display: none;
-    }
-
-    .logo {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .logo .logo-text {
-        font-size: 22px;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-    
-    .signUp {
-        margin-top: 100px;
-    }
-
-    .signUp .left {
-        width: 90%;
-    }
-
-    .signUp .right {
-        display: flex;
-        justify-content: center; /* Horizontally center the image */
-        align-items: center; /* Vertically center the image */
-        width: 90%;
-    }
-
-    .signUp .right img {
-        max-width: 100%; /* Make sure the image doesn't exceed its parent container */
-    }
-
-    .logo {
-        position: absolute;
-        top: 0;
-        right: 0;
-        text-align: right;
-    }
-
-    .logo .logo-text {
-        font-size: 22px;
-    }
-}
-
-/* End Media */
-
-/* End Login */
+/* End Sign up */
 

@@ -91,35 +91,5 @@ input:focus {
     outline: none;
 }
 
-/* Start Media */
-
-@media (max-width: 480px) {
-    .login {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .login .left {
-        width: 90%;
-    }
-
-    .login .right {
-        display: none;
-    }
-
-    .logo {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .logo .logo-text {
-        font-size: 22px;
-    }
-}
-
-/* End Media */
-
 /* End Login */
 
