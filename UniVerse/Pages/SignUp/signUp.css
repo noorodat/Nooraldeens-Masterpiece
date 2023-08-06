@@ -1,46 +1,21 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+/*________________________ START SIGN UP PAGE ________________________ */
 
-:root {
-    --main-color: #3e5c60;
-    --second-color: #723b4a;
-    --line-height: 1.7;
-    --transition-duration: 0.3s;
-    --section-marginT: 75px;
-}
+/* Start Sign Up */
 
-body {
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* Start Login */
-
-.logo {
+.signup-logo {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.logo .logo-text {
+.signup-logo .logo-text {
     font-size: 35px;
     font-weight: bold;
     color: var(--main-color);
     font-family: "Rubik", sans-serif;
 }
 
-.logo .logo-icon {
+.signup-logo .logo-icon {
     color: var(--second-color);
 }
 
@@ -94,8 +69,11 @@ input:focus {
     outline: none;
 }
 
-/* Start Media */
+/* End Sign Up */
 
+
+
+/* START MEDIA */
 @media(max-width: 480px) {
 
     .signUp h2 {
@@ -110,7 +88,7 @@ input:focus {
     .signUp .left {
         width: 90%;
     }
-    
+
     .signUp .right {
         display: none;
     }
@@ -128,7 +106,7 @@ input:focus {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    
+
     .signUp {
         margin-top: 100px;
     }
@@ -139,28 +117,37 @@ input:focus {
 
     .signUp .right {
         display: flex;
-        justify-content: center; /* Horizontally center the image */
-        align-items: center; /* Vertically center the image */
+        justify-content: center;
+        /* Horizontally center the image */
+        align-items: center;
+        /* Vertically center the image */
         width: 90%;
     }
 
     .signUp .right img {
-        max-width: 100%; /* Make sure the image doesn't exceed its parent container */
+        max-width: 100%;
+        /* Make sure the image doesn't exceed its parent container */
     }
 
-    .logo {
+    .signup-logo {
         position: absolute;
         top: 0;
         right: 0;
         text-align: right;
     }
 
-    .logo .logo-text {
+    .signup-logo .logo-text {
         font-size: 22px;
     }
 }
 
-/* End Media */
+/* END MEDIA */
 
-/* End Login */
+/*________________________ END SIGN UP PAGE ________________________ */
+
+
+
+
+
+
 

@@ -1,0 +1,299 @@
+/* Start Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #3e5c60;
+    --second-color: #723b4a;
+    --line-height: 1.7;
+    --transition-duration: 0.3s;
+    --section-marginT: 75px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+.myBtn {
+    padding: 8px 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-btn {
+    background-color: var(--main-color);
+}
+
+.sec-btn {
+    background-color: var(--second-color);
+}
+
+.main-heading {
+    font-size: 100px;
+    text-align: center;
+    -webkit-text-stroke: var(--main-color) 2px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Start Navbar */
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 0px 0px #eee;
+    -webkit-box-shadow: 0px 5px 0px 0px #eee;
+    -moz-box-shadow: 0px 5px 0px 0px #eee;
+}
+
+nav .menu-button {
+    display: none;
+}
+
+nav .logo .logo-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--main-color);
+    font-family: "Rubik", sans-serif;
+}
+
+nav .logo .logo-icon {
+    color: var(--second-color);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+nav .links a {
+    color: black;
+    font-weight: bold;
+    transition: var(--transition-duration);
+}
+
+nav .links li {
+    position: relative;
+    transition: var(--transition-duration);
+}
+
+nav .links li:not(#login)::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: var(--second-color);
+    width: 0;
+    bottom: -4px;
+    transition: var(--transition-duration);
+}
+
+nav .links li:hover:not(#login, #discountsLink)::before {
+    width: 100%;
+}
+
+#login {
+    background-color: var(--main-color);
+    padding: 8px 18px;
+    border-radius: 8px;
+}
+
+#login:active {
+    transform: translateY(-1px);
+}
+
+#login a {
+    color: white;
+}
+
+#discountsLink {
+    background-color: var(--second-color);
+    padding: 8px 18px;
+    border-radius: 8px;
+    animation: color-change 1.3s infinite linear alternate;
+}
+
+@keyframes color-change {
+    from {
+        background-color: var(--main-color);
+    }
+
+    to {
+        background-color: var(--second-color);
+    }
+}
+
+#discountsLink a {
+    color: white;
+}
+
+#menu {
+    display: none;
+}
+
+/* Start Nav Meida */
+
+@media (max-width: 480px) {
+    nav .logo .logo-text {
+        font-size: 25px;
+    }
+
+    nav .links {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        font-size: 20px;
+    }
+
+    ul.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #010000cf;
+        padding: 5px;
+        border-radius: 8px;
+        z-index: 1000;
+    }
+
+    ul.active a {
+        color: white;
+    }
+
+    /* End Nav Meida */
+}
+
+
+/* End Navbar */
+
+
+
+/* Start Footer */
+
+footer {
+    background-color: #0d0205;
+    color: white;
+    padding: 25px;
+}
+
+footer .footer-logo {
+    align-self: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .footer-logo .footer-logo-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--main-color);
+    font-family: "Rubik", sans-serif;
+}
+
+footer .footer-logo .logo-icon {
+    color: var(--second-color);
+}
+
+footer .socials .content {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+footer .copyRights {
+    margin-top: 20px;
+    text-align: right; 
+}
+
+/* End Footer */
+
+/* Start Footer Media */
+
+@media (max-width: 480px) {
+
+    footer .footer-logo .footer-logo-text {
+        font-size: 30px;
+    }
+
+    footer .container {
+        text-align: center;
+        gap: 35px;
+    }
+
+    footer .socials .content {
+        justify-content: center;
+    }
+
+    footer .copyRights {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    footer .footer-logo .logo-text {
+        font-size: 30px;
+    }
+
+    footer .container {
+        text-align: center;
+
+    }
+
+    footer .socials .content {
+        justify-content: center;
+    }
+
+    footer .socials {
+        align-self: center;
+    }
+
+    footer .copyRights {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* End Footer Media */
+
+
+/* End Footer */
+
+/* End Global */

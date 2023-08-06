@@ -427,6 +427,10 @@ nav .links li:hover:not(#login, #discountsLink)::before {
     scrollbar-width: none;
 }
 
+.wrapper .carousel .ratings {
+    color: #ffd600;
+}
+
 .carousel {
     /* Other existing properties */
     margin: 0 auto; /* Add this to center the cards within the carousel */

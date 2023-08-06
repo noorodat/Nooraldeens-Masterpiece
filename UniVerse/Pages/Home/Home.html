@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="/GlobalCSS/all.min.css">
     <link rel="stylesheet" href="/GlobalCSS/bootstrap.css.map">
     <link rel="stylesheet" href="/GlobalCSS/bootstrap.min.css">
-    <link rel="stylesheet" href="/Pages/Home/Home.css">
+    <link rel="stylesheet" href="/GlobalCSS/globalRules.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="/GlobalCSS/responsive.css">
     <!-- End CSS Links -->
 </head>
 
@@ -49,14 +51,11 @@
     <!-- Start Landing Page -->
 
     <div class="landing-page position-relative">
-        <div class="image">
-            <img src="/Pages/Home/images/univers.png" alt="">
-            <div class="text">
-                <h2>UniVerse</h2>
-                <p>Unleash Your University Experience: Discover, Connect, and Grow! Embrace a dynamic online platform
-                    designed for students. Join us and embark on a transformative journey today!</p>
-                <a href=""><button class="myBtn main-btn">More</button></a>
-            </div>
+        <div class="text" id="landingText">
+            <h2>UniVerse</h2>
+            <p>Unleash Your University Experience: Discover, Connect, and Grow! Embrace a dynamic online platform
+                designed for students. Join us and embark on a transformative journey today!</p>
+            <a href=""><button class="myBtn main-btn">More</button></a>
         </div>
     </div>
 
@@ -144,8 +143,8 @@
 
     <footer class="mt-5">
         <div class="container row justify-content-center">
-            <div class="logo col-12 col-md-4 col-lg-4">
-                <a href=""><span class="logo-text">UniVerse <i
+            <div class="footer-logo col-12 col-md-4 col-lg-4">
+                <a href=""><span class="footer-logo-text">UniVerse <i
                             class="fa-solid fa-building-columns logo-icon"></i></span></a>
             </div>
             <div class="links col-12 col-md-4 col-lg-4">
