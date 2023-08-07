@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/GlobalCSS/all.min.css">
     <link rel="stylesheet" href="/GlobalCSS/bootstrap.css.map">
     <link rel="stylesheet" href="/GlobalCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/GlobalCSS/globalRules.css">
     <link rel="stylesheet" href="/Pages/courses/courses.css">
     <link rel="stylesheet" href="/GlobalCSS/responsive.css">
     <!-- End CSS Links -->
@@ -45,15 +46,12 @@
     <!-- Start Landing Page -->
 
     <div class="landing-page position-relative">
-        <div class="image">
-            <img src="/Pages/courses/images/landing.png" alt="">
             <div class="text">
                 <h2>Courses</h2>
                 <p>From Students To Students</p>
                 <input type="text" class="search" placeholder="Search a Course">
                 <button>Search</button>
             </div>
-        </div>
     </div>
 
     <!-- End Landing Page -->
@@ -66,7 +64,7 @@
         <div class="departments-cards row justify-content-center gap-5">
             <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="image">
-                    <a href=""><img src="/Pages/courses/images/IT.png" alt=""></a>
+                    <a href="../deparments/IT.html"><img src="/Pages/courses/images/IT.png" alt=""></a>
                     <p>IT</p>
                 </div>
             </div>
@@ -106,7 +104,7 @@
     <!-- End Courses -->
 
     <!-- Start Lateset Courses -->
-    <div class="latest-courses section">
+    <div class="latest-courses section sectionColor">
         <div class="container">
             <h2 class="main-heading">Lastest Courses</h2>
         </div>
@@ -184,6 +182,16 @@
     </div>
     <!-- End Latest Courses -->
 
+    <!-- Start Why Our Courses -->
+
+    <!-- <div class="why-our-courses">
+        <div class="container">
+            <h2>Why Our Courses?</h2>
+        </div>
+    </div> -->
+
+    <!-- End Why Our Courses -->
+
 
     <!-- Start Join Us -->
 
@@ -212,73 +220,87 @@
 
     <!-- Start Instructors -->
 
-    <div class="instructors section">
-        <div class="container px-lg-5">
-            <h2 class="mt- main-heading">Students Joined us</h2>
-            <div class="row instructors-cards">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                                style="width: 75px;">
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+    <div class="instructors section sectionColor">
+        <div class="container">
+            <h2 class="main-heading">Students Joined us</h2>
+            <div class="row instructor-cards justify-content-center gap-5">
+                <div class="instructor col-md-5 col-lg-3">
+                    <div class="socials">
+                        <div class="info">
+                            <img src="./images/instructor.png" alt="" class="img-fluid">
+                            <div class="info mt-2">
+                                <p class="name fw-bold">Ali Ahmad</p>
+                                <span class="major">Computer science</span>
                             </div>
-                            <img class="img-fluid rounded w-100" src="/Pages/courses/images/inst1.jpg">
                         </div>
-                        <div class="px-4 py-3">
-                            <h5 class="fw-bold m-0">Majd Malkawi</h5>
-                            <small>Computer Engineering Student</small>
+                        <div class="media">
+                            <div class="facebook"><a href=""><i class="fa-brands fa-facebook facebookIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-instagram instagramIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-linkedin linkedinIcon"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                                style="width: 75px;">
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                <div class="instructor col-md-5 col-lg-3">
+                    <div class="socials">
+                        <div class="info">
+                            <img src="./images/instructor.png" alt="" class="img-fluid">
+                            <div class="info mt-2">
+                                <p class="name fw-bold">Ali Ahmad</p>
+                                <span class="major">Computer science</span>
                             </div>
-                            <img class="img-fluid rounded w-100" src="/Pages/courses/images/inst2.jpg" alt="">
                         </div>
-                        <div class="px-4 py-3">
-                            <h5 class="fw-bold m-0">Sara Ahmad</h5>
-                            <small>CS Student</small>
+                        <div class="media">
+                            <div class="facebook"><a href=""><i class="fa-brands fa-facebook facebookIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-instagram instagramIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-linkedin linkedinIcon"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                                style="width: 75px;">
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                <div class="instructor col-md-5 col-lg-3">
+                    <div class="socials">
+                        <div class="info">
+                            <img src="./images/instructor.png" alt="" class="img-fluid">
+                            <div class="info mt-2">
+                                <p class="name fw-bold">Ali Ahmad</p>
+                                <span class="major">Computer science</span>
                             </div>
-                            <img class="img-fluid rounded w-100" src="/Pages/courses/images/inst3.jpg" alt="">
                         </div>
-                        <div class="px-4 py-3">
-                            <h5 class="fw-bold m-0">Fadl Masri</h5>
-                            <small>CS Student</small>
+                        <div class="media">
+                            <div class="facebook"><a href=""><i class="fa-brands fa-facebook facebookIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-instagram instagramIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-linkedin linkedinIcon"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor col-md-5 col-lg-3">
+                    <div class="socials">
+                        <div class="info">
+                            <img src="./images/instructor.png" alt="" class="img-fluid">
+                            <div class="info mt-2">
+                                <p class="name fw-bold">Ali Ahmad</p>
+                                <span class="major">Computer science</span>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="facebook"><a href=""><i class="fa-brands fa-facebook facebookIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-instagram instagramIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-linkedin linkedinIcon"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor col-md-5 col-lg-3">
+                    <div class="socials">
+                        <div class="info">
+                            <img src="./images/instructor.png" alt="" class="img-fluid">
+                            <div class="info mt-2">
+                                <p class="name fw-bold">Ali Ahmad</p>
+                                <span class="major">Computer science</span>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="facebook"><a href=""><i class="fa-brands fa-facebook facebookIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-instagram instagramIcon"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fa-brands fa-linkedin linkedinIcon"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -288,10 +310,10 @@
 
     <!-- End Instructors -->
 
-        <footer class="">
+    <footer class="">
         <div class="container row justify-content-center">
-            <div class="logo col-12 col-md-4 col-lg-4">
-                <a href=""><span class="logo-text">UniVerse <i
+            <div class="footer-logo col-12 col-md-4 col-lg-4">
+                <a href=""><span class="footer-logo-text">UniVerse <i
                             class="fa-solid fa-building-columns logo-icon"></i></span></a>
             </div>
             <div class="links col-12 col-md-4 col-lg-4">

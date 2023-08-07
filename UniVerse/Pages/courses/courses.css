@@ -1,173 +1,24 @@
-/* Start Global */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Start Landing Page */
+
+.landing-page {
+    background-image: url(/Pages/courses/images/landing.png);
+    width: calc(100vw);
+    height: calc(100vh - 92.5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-:root {
-    --main-color: #3e5c60;
-    --second-color: #723b4a;
-    --line-height: 1.7;
-    --transition-duration: 0.3s;
-    --section-marginT: 75px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-button {
-    border: none;
-}
-
-.myBtn {
-    padding: 8px 40px;
-    color: white;
-    border-radius: 5px;
-}
-
-.main-btn {
-    background-color: var(--main-color);
-}
-
-.sec-btn {
-    background-color: var(--second-color);
-}
-
-.main-heading {
-    font-size: 100px;
-    text-align: center;
-    -webkit-text-stroke: var(--main-color) 2px;
-    color: white;
-}
-
-.section {
-    padding: 50px 0;
-}
-
-input:focus {
-    outline: none;
-}
-
-/* End Global */
-
-/* Start Navbar */
-
-nav {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 5px 0px 0px #eee;
-    -webkit-box-shadow: 0px 5px 0px 0px #eee;
-    -moz-box-shadow: 0px 5px 0px 0px #eee;
-}
-
-nav .menu-button {
-    display: none;
-}
-
-nav .logo .logo-text {
-    font-size: 35px;
-    font-weight: bold;
-    color: var(--main-color);
-    font-family: "Rubik", sans-serif;
-}
-
-nav .logo .logo-icon {
-    color: var(--second-color);
-}
-
-nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .links {
-    display: flex;
-    list-style: none;
-    gap: 25px;
-    align-items: center;
-}
-
-nav .links a {
-    color: black;
-    font-weight: bold;
-    transition: var(--transition-duration);
-}
-
-nav .links li {
-    position: relative;
-    transition: var(--transition-duration);
-}
-
-nav .links li:not(#login)::before {
+.landing-page::before {
     content: "";
     position: absolute;
-    height: 3px;
-    background-color: var(--second-color);
-    width: 0;
-    bottom: -4px;
-    transition: var(--transition-duration);
-}
-
-nav .links li:hover:not(#login, #discountsLink)::before {
+    background-color: rgba(12, 1, 1, 0.557);
+    top: 0;
+    left: 0;
+    z-index: 100;
     width: 100%;
+    height: 100%;
 }
-
-#login {
-    background-color: var(--main-color);
-    padding: 8px 18px;
-    border-radius: 8px;
-}
-
-#login:active {
-    transform: translateY(-1px);
-}
-
-#login a {
-    color: white;
-}
-
-#discountsLink {
-    background-color: var(--second-color);
-    padding: 8px 18px;
-    border-radius: 8px;
-    animation: color-change 1.3s infinite linear alternate;
-}
-
-@keyframes color-change {
-    from {
-        background-color: var(--main-color);
-    }
-
-    to {
-        background-color: var(--second-color);
-    }
-}
-
-#discountsLink a {
-    color: white;
-}
-
-#menu {
-    display: none;
-}
-
-
-/* Start Landing Page */
 
 .landing-page .image {
     position: relative;
@@ -282,12 +133,9 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 
 /* End Departments */
 
-/* Start Lastest Courses */
 
-.latest-courses {
-    background-color: #eee;
-    padding: 30px;
-}
+
+/* Start Lastest Courses */
 
 .latest-courses .container {
     display: flex;
@@ -344,6 +192,10 @@ nav .links li:hover:not(#login, #discountsLink)::before {
     scrollbar-width: none;
 }
 
+.wrapper .carousel .ratings {
+    color: #ffd600;
+}
+
 .carousel {
     /* Other existing properties */
     margin: 0 auto; /* Add this to center the cards within the carousel */
@@ -384,6 +236,10 @@ nav .links li:hover:not(#login, #discountsLink)::before {
     border-radius: 8px;
 }
 
+.wrapper .card a {
+    color: var(--second-color);
+}
+
 .carousel .card .img {
     background: var(--second-color);
     height: 148px;
@@ -415,46 +271,57 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 
 /* Start Instructor */
 
-.instructors {
-    background-color: #eee;
+.instructors .instructor-cards {
+    margin-top: 40px;
+    text-align: center;
 }
 
-.team-item {
-    position: relative;
-    transition: .5s;
-    z-index: 1;
-}
-
-.team-item::after {
-    position: absolute;
-    content: "";
-    top: 3rem;
-    right: 3rem;
-    bottom: 0;
-    left: 0;
+.instructor-cards .instructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 3px solid var(--second-color);
     border-radius: 10px;
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .1);
-    transition: .5s;
-    z-index: -1;
+    background-color: #f7f7f7;
 }
 
-.team-item:hover::after {
-    background: var(--second-color);
+.instructor-cards .instructor img {
+    max-width: 100%;
+    border-radius: 50%;
 }
 
-.team-item h5,
-.team-item small {
-    transition: .5s;
+.instructor-cards .instructor .info {
+    text-align: center;
 }
 
-.team-item:hover h5,
-.team-item:hover small {
-    color: #F7FAFF;
+.instructor-cards .instructor .name {
+    font-size: 24px;
+    color: #222;
 }
 
-.instructors-cards {
-    margin-top:  var(--section-marginT);
+.instructor-cards .instructor .major {
+    font-size: 16px;
+}
+
+.instructor-cards .instructor .socials {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructor-cards .instructor .media {
+    font-size: 30px;
+}
+
+.instructor-cards .instructor .media svg {
+    transition: var(--transition-duration);
+}
+
+.instructor-cards .instructor .media svg:hover {
+    transform: scale(1.2);
 }
 
 /* End Instructor */
@@ -490,48 +357,100 @@ nav .links li:hover:not(#login, #discountsLink)::before {
 /* End Join Us */
 
 
-/* Start Footer */
+/* START MEDIA */
 
-footer {
-    background-color: #0d0205;
-    color: white;
-    padding: 25px;
+/* Landing Page */
+
+@media (max-width: 480px) {
+    .landing-page .text {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-page .text h2 {
+        font-size: 25px;
+    }
+
+    .landing-page .text p {
+        line-height: normal;
+        font-size: 12px;
+    }
+
+    .landing-page input {
+        width: 80%;
+        margin: auto;
+        padding: 5px 10px;
+    }
+
+    .landing-page button {
+        padding: 2px 6px;
+        font-size: 14px;
+        width: 50%;
+        margin: 10px auto;
+    }
 }
 
-footer .logo {
-    align-self: center;
+@media (min-width: 481px) and (max-width: 768px) {
+    .landing-page .text {
+        width: 80%;
+    }
+
+    .landing-page .text h2 {
+        font-size: 25px;
+    }
+
+    .landing-page .text p {
+        font-size: 16px;
+    }
 }
 
-footer a {
-    color: white;
+/* Instructors */
+
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
 }
 
-footer a:hover {
-    color: white;
-}
-
-footer .logo .logo-text {
-    font-size: 35px;
-    font-weight: bold;
-    color: var(--main-color);
-    font-family: "Rubik", sans-serif;
-}
-
-footer .logo .logo-icon {
-    color: var(--second-color);
-}
-
-footer .socials .content {
-    display: flex;
-    gap: 20px;
-    font-size: 25px;
-}
-
-footer .copyRights {
-    margin-top: 20px;
-    text-align: right; 
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
 }
 
 
-/* End Footer */
+/* Join Us */
+
+@media (max-width: 480px) {
+    .join-us .join-content {
+        flex-direction: column;
+    }
+
+    .join-us .join-content .right {
+        width: 100%;
+        order: -1;
+    }
+
+    .join-us .join-content .left {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/* instructors */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .instructors .instructors-cards .team-item {
+        width: 250px;
+    }
+}
+
+
+
+
+
+/* END MEDIA */
+
 
