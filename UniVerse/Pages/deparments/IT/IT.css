@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Start Landing Page */
+
+.landing-page {
+    background-image: url(./images/landing.png);
+    width: calc(100vw);
+    height: calc(100vh - 92.5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .landing-page::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(12, 1, 1, 0.557);
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+} */
+
+.landing-page .image h2 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.landing-page .text {
+    position: relative;
+    color: white;
+    z-index: 500;
+}
+
+.landing-page .content {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Landing Page */
+
+/*  */
+
+.header {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 30px;
+}
+
+.department-title {
+    color: white;
+    font-size: 28px;
+}
+
+.slide-container {
+    margin: 0 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 205;
+}
+
+/* Card styling */
+.card {
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .image-box img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card .profile-details {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+}
+
+.card .course-name {
+    color: var(--second-color);
+}
+
+.card svg {
+    color: rgb(255, 200, 0);
+}
+
+.card .profile-details img {
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details .name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.profile-details .major {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Swiper navigation buttons */
+.swiper-navBtn {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    background-color: #555;
+}
+
+/* Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #666;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .swiper-navBtn {
+        display: none;
+    }
+
+    .card {
+        margin: 20px auto;
+        width: 80%;
+    }
+}
