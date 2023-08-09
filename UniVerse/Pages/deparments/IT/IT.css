@@ -1,26 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+body {
+    background-color: #eee;
+}
+
 /* Start Landing Page */
 
 .landing-page {
+    position: relative;
     background-image: url(./images/landing.png);
     width: calc(100vw);
-    height: calc(100vh - 92.5px);
+    height: calc(110vh - 92.5px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* .landing-page::before {
-    content: "";
-    position: absolute;
-    background-color: rgba(12, 1, 1, 0.557);
-    top: 0;
-    left: 0;
-    z-index: 50;
-    width: 100%;
-    height: 100%;
-} */
 
 .landing-page .image h2 {
     font-size: 65px;
@@ -46,9 +40,9 @@
 /*  */
 
 .header {
-    background-color: var(--main-color);
+    background-color: rgba(0, 0, 0, 0.585);
     text-align: center;
-    padding: 30px;
+    padding: 15px;
 }
 
 .department-title {
@@ -128,6 +122,7 @@
     justify-content: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    z-index: 600;
 }
 
 .swiper-navBtn:hover {
@@ -159,3 +154,63 @@
         width: 80%;
     }
 }
+
+
+
+/* Strat Courses */
+
+.courses {
+    background-color: #eee;
+}
+
+.filterBtn {
+    background-color: var(--second-color);
+    padding: 12px 15px;
+    color: white;
+    top: 92.5px !important;
+}
+
+.courses .card {
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.courses form input {
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--main-color);
+    padding: 12px 18px;
+}
+
+.courses form button {
+    border-radius: 8px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 12px 18px;
+}
+
+@media (max-width: 480px) {
+    .courses form input {
+        padding: 8px 12px;
+        
+        width: 70% !important;
+    }
+    .courses form button {
+        padding: 8px 12px;
+        width: 20% !important;
+    }
+
+    .filterBtn {
+        padding: 5px 8px;
+    }
+}
+
+/* End Courses */
+
+
+

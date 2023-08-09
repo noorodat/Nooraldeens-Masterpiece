@@ -198,7 +198,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .swiper-virtual.swiper-css-mode.swiper-horizontal .swiper-wrapper::after {
@@ -252,7 +252,7 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
     font-family: swiper-icons;
-    font-size: var(--swiper-navigation-size);
+    font-size: 18px;
     text-transform: none !important;
     letter-spacing: 0;
     font-variant: initial;
