@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/GlobalCSS/bootstrap.min.css">
     <link rel="stylesheet" href="/GlobalCSS/globalRules.css">
     <link rel="stylesheet" href="/GlobalCSS/swiper.css">
+    <link rel="stylesheet" href="/GlobalCSS/departments.css">
     <link rel="stylesheet" href="./IT.css">
     <link rel="stylesheet" href="/GlobalCSS/responsive.css">
     <!-- End CSS Links -->
@@ -26,7 +27,7 @@
 
 <body>
 
-    <nav class="sticky-top" style="background-color: white;">
+    <nav class="" style="background-color: white;">
         <div class="container position-relative">
             <div class="logo">
                 <a href="/Pages/Home/Home.html"><span class="logo-text">UniVerse <i
@@ -45,130 +46,63 @@
     </nav>
 
     <div class="landing-page position-relative">
-        <div class="header">
-            <h2 class="department-title">IT Department</h2>
+        <div class="go-links"><a href="/Pages/courses/courses.html">Courses</a> > <a href="/Pages/deparments/IT/IT.html">IT</a></div>
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
         </div>
-        <div class="container">
-            <h3 class="text-light">Offers</h3>
+
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
+
+
+    <!-- Start Courses -->
+    <button class="sticky-top filterBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"><i class="fa-solid fa-arrow-right"></i></button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="container">
-            <div class="swiper p-2">
-                <div class="slide-container">
-                    <div class="card-wrapper swiper-wrapper">
-                        <div class="card swiper-slide">
-                            <div class="image-box">
-                                <img src="./images/software testing.jpg" alt="" />
-                            </div>
-                            <div class="course-name text-center mt-2 fw-bold">Software testing</div>
-                            <div class="price-ratings text-center mt-2">
-                                <div class="price">10$</div>
-                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i></span>
-                            </div>
-                            <div class="profile-details d-flex justify-content-center">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name-job">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-box">
-                                <img src="./images/data structures.jpg" alt="" />
-                            </div>
-                            <div class="course-name text-center mt-2 fw-bold">Data structures</div>
-                            <div class="price-ratings text-center mt-2">
-                                <div class="price">10$</div>
-                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i></span>
-                            </div>
-                            <div class="profile-details d-flex justify-content-center">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name-job">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-box">
-                                <img src="./images/java.png" alt="" />
-                            </div>
-                            <div class="course-name text-center mt-2 fw-bold">Java</div>
-                            <div class="price-ratings text-center mt-2">
-                                <div class="price">10$</div>
-                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i></span>
-                            </div>
-                            <div class="profile-details d-flex justify-content-center">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name-job">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-box">
-                                <img src="./images/OS.jpg" alt="" />
-                            </div>
-                            <div class="course-name text-center mt-2 fw-bold">Operating system</div>
-                            <div class="price-ratings text-center mt-2">
-                                <div class="price">10$</div>
-                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i></span>
-                            </div>
-                            <div class="profile-details d-flex justify-content-center">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name-job">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-box">
-                                <img src="./images/machine learning.jpg" alt="" />
-                            </div>
-                            <div class="course-name text-center mt-2 fw-bold">Machine learning</div>
-                            <div class="price-ratings text-center mt-2">
-                                <div class="price">10$</div>
-                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                        class="fa-solid fa-star"></i></span>
-                            </div>
-                            <div class="profile-details d-flex justify-content-center">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name-job">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next swiper-navBtn"></div>
-                <div class="swiper-button-prev swiper-navBtn"></div>
-                <div class="swiper-pagination"></div>
+        <div class="offcanvas-body">
+            <div class="sec1">
+                <h3>Departments</h3>
+                <ul class="departments mt-4">
+                    <a href=""><li>IT</li></a>
+                    <a href=""><li>Engineering</li></a>
+                    <a href=""><li>Medical school</li></a>
+                    <a href=""><li>Science</li></a>
+                    <a href=""><li>Architecture and Design</li></a>
+                    <a href=""><li>Languages and Literature</li></a>
+                </ul>
+            </div>
+            <div class="sec2 mt-4">
+                <h3>Filter</h3>
+                <select name="" id="">
+                        <option value="">Sort by</option>
+                        <option value="">Price(High to Low)</option>
+                        <option value="">Price(Low to High)</option>
+                        <option value="">Ratings</option>
+                </select>
+                <ul class="departments mt-4">
+                    <a href=""><li>FREE Courses</li></a>
+                    <a href=""><li>Discounts</li></a>
+                </ul>
             </div>
         </div>
     </div>
 
-    <!-- Start Courses -->
-    <button class="sticky-top filterBtn" type="button" data-bs-toggle="offcanvas"
-    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></button>
-
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <h3></h3>
-    </div>
-</div>
     <div class="courses section position-relative">
         <div class="container">
             <form action="" class="text-center">
@@ -177,6 +111,7 @@
                     <i class="fas fa-search"></i>
                 </button>
             </form>
+            <h2 class="main-heading mt-4 mb-4">IT Courses</h2>
             <div class="courses-box row gap-3 justify-content-center mt-3">
                 <div class="course col-12 col-md-5 col-lg-3">
                     <div class="card">
@@ -384,6 +319,116 @@
 
     <!-- End Courses -->
 
+    <!-- Start Offers -->
+
+    <div class="offers section">
+        <h2 class="main-heading">Discounts</h2>
+        <div class="container">
+            <div class="swiper p-2">
+                <div class="slide-container">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="./images/software testing.jpg" alt="" />
+                            </div>
+                            <div class="course-name text-center mt-2 fw-bold">Software testing</div>
+                            <div class="price-ratings text-center mt-2">
+                                <div class="price">10$</div>
+                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="profile-details d-flex justify-content-center">
+                                <img src="./images/nooraldeen-modified.png" alt="" />
+                                <div class="name-job">
+                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="./images/data structures.jpg" alt="" />
+                            </div>
+                            <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                            <div class="price-ratings text-center mt-2">
+                                <div class="price">10$</div>
+                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="profile-details d-flex justify-content-center">
+                                <img src="./images/nooraldeen-modified.png" alt="" />
+                                <div class="name-job">
+                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="./images/java.png" alt="" />
+                            </div>
+                            <div class="course-name text-center mt-2 fw-bold">Java</div>
+                            <div class="price-ratings text-center mt-2">
+                                <div class="price">10$</div>
+                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="profile-details d-flex justify-content-center">
+                                <img src="./images/nooraldeen-modified.png" alt="" />
+                                <div class="name-job">
+                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="./images/OS.jpg" alt="" />
+                            </div>
+                            <div class="course-name text-center mt-2 fw-bold">Operating system</div>
+                            <div class="price-ratings text-center mt-2">
+                                <div class="price">10$</div>
+                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="profile-details d-flex justify-content-center">
+                                <img src="./images/nooraldeen-modified.png" alt="" />
+                                <div class="name-job">
+                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="./images/machine learning.jpg" alt="" />
+                            </div>
+                            <div class="course-name text-center mt-2 fw-bold">Machine learning</div>
+                            <div class="price-ratings text-center mt-2">
+                                <div class="price">10$</div>
+                                <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="profile-details d-flex justify-content-center">
+                                <img src="./images/nooraldeen-modified.png" alt="" />
+                                <div class="name-job">
+                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- End Offers -->
+
     <!-- Start Footer -->
 
     <footer class="">
@@ -418,7 +463,8 @@
                     <div class="facebook"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
                     <div class="facebook"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
                     <div class="facebook"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                    <div class="email"><a href="mailto:nooraldeen.aloudat@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
+                    <div class="email"><a href="mailto:nooraldeen.aloudat@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a></div>
                 </div>
             </div>
         </div>
@@ -437,7 +483,8 @@
     <script src="/GlobalJS/bootstrap.bundle.min.js"></script>
     <script src="/GlobalJS/bootstrap.bundle.min.js.map"></script>
     <script src="/GlobalJS/swiper.js"></script>
-    <script src="./IT.js"></script>
+    <script src="./IT.js" type="module"></script>
+    <script src="/GlobalJS/departments.js" type="module"></script>
     <script src="/GlobalJS/common.js"></script>
     <!-- End JS Links -->
 </body>
