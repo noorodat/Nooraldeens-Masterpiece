@@ -1,9 +1,9 @@
 export const texts = [
     "Welcome To",
-    "IT Department",
+    "Medical Department",
     "Where You Can",
     "FIND",
-    "IT Courses",
+    "Medical Courses",
     "And buy",
     "And Publish",
     "Your Own!"

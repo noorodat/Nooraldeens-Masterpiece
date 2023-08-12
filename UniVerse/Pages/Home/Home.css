@@ -3,7 +3,7 @@
 /* Start Landing Page */
 
 .landing-page {
-    background-image: url(/Pages/Home/images/univers.png);
+    background-image: url(./images/univers.png);
     width: calc(100vw);
     height: calc(100vh - 92.5px);
     background-size: cover;

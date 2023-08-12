@@ -62,7 +62,7 @@ input:not(:last-child) {
 }
 
 input[type="submit"] {
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     color: white;
     width: 50%;
     border-radius: 10px;
@@ -119,3 +119,4 @@ input[type="submit"] {
 
 
 /*________________________ END LOG IN PAGE ________________________ */
+

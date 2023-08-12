@@ -40,19 +40,25 @@ const elts = {
   text2: document.getElementById("text2")
 };
 
-import {texts} from "../Pages/deparments/IT/IT.js";
+let pathArray = window.location.pathname.split('/');
+let folderName = pathArray[pathArray.length - 2]; // Get the second-to-last element
+console.log(folderName);
 
+// import { texts } from '../Pages/deparments/IT/IT.js';
 
+import(`../Pages/deparments/${folderName}/${folderName}.js`)
+.then(module => {
+console.log(module.texts)
 const morphTime = 1;
 const cooldownTime = 0.25;
 
-let textIndex = texts.length - 1;
+let textIndex = module.texts.length - 1;
 let time = new Date();
 let morph = 0;
 let cooldown = cooldownTime;
 
-elts.text1.textContent = texts[textIndex % texts.length];
-elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+elts.text1.textContent = module.texts[textIndex % module.texts.length];
+elts.text2.textContent = module.texts[(textIndex + 1) % module.texts.length];
 
 function doMorph() {
   morph -= cooldown;
@@ -76,8 +82,8 @@ function setMorph(fraction) {
   elts.text1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
   elts.text1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
 
-  elts.text1.textContent = texts[textIndex % texts.length];
-  elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+  elts.text1.textContent = module.texts[textIndex % module.texts.length];
+  elts.text2.textContent = module.texts[(textIndex + 1) % module.texts.length];
 }
 
 function doCooldown() {
@@ -112,3 +118,20 @@ function animate() {
 }
 
 animate();
+
+});
+
+
+
+
+
+
+// Handle buy button in courses
+
+// let buyCourseButtons = document.querySelectorAll(".buyCourse");
+
+// buyCourseButtons.forEach(buyBtn => {
+//   buyBtn.onclick = () => {
+//     console.log("Clikced");
+//   }
+// })

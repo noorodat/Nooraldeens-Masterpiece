@@ -13,94 +13,75 @@
     <!-- End Google Fonts -->
 
     <!-- Start CSS Links -->
-    <link rel="stylesheet" href="/GlobalCSS/normalize.css">
-    <link rel="stylesheet" href="/GlobalCSS/all.min.css">
-    <link rel="stylesheet" href="/GlobalCSS/bootstrap.css.map">
-    <link rel="stylesheet" href="/GlobalCSS/bootstrap.min.css">
-    <link rel="stylesheet" href="/GlobalCSS/globalRules.css">
-    <link rel="stylesheet" href="/Pages/courses/courses.css">
-    <link rel="stylesheet" href="/GlobalCSS/responsive.css">
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/cssLinks.php'; ?>
+    <link rel="stylesheet" href="./courses.css">
+    <link rel="stylesheet" href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalCSS/swiper.css">
     <!-- End CSS Links -->
 </head>
 
 <body>
 
-    <nav>
-        <div class="container position-relative">
-            <div class="logo">
-                <a href="/Pages/Home/Home.html"><span class="logo-text">UniVerse <i
-                            class="fa-solid fa-building-columns logo-icon"></i></span></a>
-            </div>
-            <div id="menu"><i class="fa fa-bars"></i></div>
-            <ul class="links" id="navLinks">
-                <li id="discountsLink"><a href="">Discounts</a></li>
-                <li><a href="/Pages/Home/Home.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="">Contact</a></li>
-                <li id="login"><a href="/Pages/Login/login.html">Login</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Start Navbar -->
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/navbar.php'; ?>
+    <!-- End Navbar -->
 
     <!-- Start Landing Page -->
     <div class="landing-page position-relative">
-            <div class="text">
-                <h2>Courses</h2>
-                <p>From Students To Students</p>
-                <input type="text" class="search" placeholder="Search a Course">
-                <button>Search</button>
-            </div>
+        <div class="text">
+            <h2>Courses</h2>
+            <p>From Students To Students</p>
+            <input type="text" class="search" placeholder="Search a Course">
+            <button>Search</button>
+        </div>
     </div>
 
     <!-- End Landing Page -->
 
-
-    <!-- Start Courses -->
+    <!-- Start Departments -->
     <div class="departments section">
         <div class=" container">
-        <h2 class="main-heading">Departments</h2>
-        <div class="departments-cards row justify-content-center gap-5">
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href="../deparments/IT/IT.html"><img src="/Pages/courses/images/IT.png" alt=""></a>
-                    <p>IT</p>
+            <h2 class="main-heading">Departments</h2>
+            <div class="departments-cards row justify-content-center gap-5">
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/IT/IT.php"><img src="./images/IT.png" alt=""></a>
+                        <p>IT</p>
+                    </div>
                 </div>
-            </div>
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href=""><img src="/Pages/courses/images/eng.png" alt=""></a>
-                    <p>Engineering</p>
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/Eng/Eng.php"><img src="./images/eng.png" alt=""></a>
+                        <p>Engineering</p>
+                    </div>
                 </div>
-            </div>
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href=""><img src="/Pages/courses/images/med school.png" alt=""></a>
-                    <p>Medical school</p>
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/Med/Med.php"><img src="./images/med school.png" alt=""></a>
+                        <p>Medical school</p>
+                    </div>
                 </div>
-            </div>
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href=""><img src="/Pages/courses/images/science2.png" alt=""></a>
-                    <p>Science</p>
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/Science/science.php"><img src="./images/science2.png" alt=""></a>
+                        <p>Science</p>
+                    </div>
                 </div>
-            </div>
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href=""><img src="/Pages/courses/images/arch and design.png" alt=""></a>
-                    <p>Architecture and Design</p>
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/archi-design/archi-design.php"><img src="./images/arch and design.png" alt=""></a>
+                        <p>Architecture and Design</p>
+                    </div>
                 </div>
-            </div>
-            <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="image">
-                    <a href=""><img src="/Pages/courses/images/lit and lang.png" alt=""></a>
-                    <p>Languages and Literature</p>
+                <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="image">
+                        <a href="../deparments/langs-lit/langs-lit.php"><img src="./images/lit and lang.png" alt=""></a>
+                        <p>Languages and Literature</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    <!-- End Courses -->
+    <!-- End Departments -->
 
     <!-- Start Lateset Courses -->
     <div class="latest-courses section sectionColor">
@@ -109,87 +90,75 @@
         </div>
         <div class="container">
             <div class="wrapper">
-                <i id="left" class="fa-solid fa-angle-left"></i>
                 <ul class="carousel">
                     <li class="card">
-                        <div class="img"><img src="/Pages/courses/images/algorithms.png" alt="img" draggable="false">
+                        <div class="img"><img src="./images/algorithms.png" alt="img" draggable="false">
                         </div>
                         <h2 class="text-center fs-5">Analysis and Design of Algorithms</h2>
                         <span class="price">10$</span>
                         <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="/Pages/courses/images/nooraldeen-modified.png"
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
                                 alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="/Pages/courses/images/c++.png" alt="img" draggable="false"></div>
+                        <div class="img"><img src="./images/c++.png" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">C++</h2>
                         <span class="price">15$</span>
                         <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="/Pages/courses/images/nooraldeen-modified.png"
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
                                 alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="/Pages/courses/images/data structures.jpg" alt="img"
+                        <div class="img"><img src="./images/data structures.jpg" alt="img"
                                 draggable="false"></div>
                         <h2 class="text-center fs-5">Data Structures</h2>
                         <span class="price">10$</span>
                         <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="/Pages/courses/images/nooraldeen-modified.png"
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
                                 alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="/Pages/courses/images/java.png" alt="img" draggable="false"></div>
+                        <div class="img"><img src="./images/java.png" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">Java</h2>
                         <span class="price">20$</span>
                         <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="/Pages/courses/images/nooraldeen-modified.png"
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
                                 alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="/Pages/courses/images/software testing.jpg" alt="img"
+                        <div class="img"><img src="./images/software testing.jpg" alt="img"
                                 draggable="false"></div>
                         <h2 class="text-center fs-5">Software Testing</h2>
                         <span class="price">15$ <small><del>$25</del></small></span>
                         <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="/Pages/courses/images/nooraldeen-modified.png"
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
                                 alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                 </ul>
-                <i id="right" class="fa-solid fa-angle-right"></i>
             </div>
         </div>
     </div>
     <!-- End Latest Courses -->
-
-    <!-- Start Why Our Courses -->
-
-    <!-- <div class="why-our-courses">
-        <div class="container">
-            <h2>Why Our Courses?</h2>
-        </div>
-    </div> -->
-
-    <!-- End Why Our Courses -->
 
 
     <!-- Start Join Us -->
@@ -202,11 +171,11 @@
                     <h2 class="display-5 fw-bold">Turn your knowledge into profit!</h2>
                     <p class="fs-3 mt-3">Publish your own courses on our website and not only empower
                         others but also earn money doing what you love.</p>
-                        <button class="myBtn main-btn mt-3">Join Us</button>
+                    <button class="myBtn main-btn mt-3">Join Us</button>
                 </div>
                 <div class="right">
                     <div class="image">
-                        <img src="/Pages//courses/images/joinUs.png" alt="">
+                        <img src="./images/joinUs.png" alt="">
                     </div>
                 </div>
             </div>
@@ -309,54 +278,18 @@
 
     <!-- End Instructors -->
 
-    <footer class="">
-        <div class="container row justify-content-center">
-            <div class="footer-logo col-12 col-md-4 col-lg-4">
-                <a href=""><span class="footer-logo-text">UniVerse <i
-                            class="fa-solid fa-building-columns logo-icon"></i></span></a>
-            </div>
-            <div class="links col-12 col-md-4 col-lg-4">
-                <h3>Go to</h3>
-                <ul>
-                    <li>
-                        <a href="">About us</a>
-                    </li>
-                    <li>
-                        <a href="">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="">Register</a>
-                    </li>
-                    <li>
-                        <a href="">Sign in</a>
-                    </li>
-                    <li>
-                        <a href="">Support</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="socials col-12 col-md-4 col-lg-4">
-                <h3>Socials</h3>
-                <div class="content">
-                    <div class="facebook"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
-                    <div class="facebook"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
-                    <div class="facebook"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                    <div class="email"><a href="mailto:nooraldeen.aloudat@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
-                </div>
-            </div>
-        </div>
-        <p class="copyRights">All Rights Reserved | UniVerse 2023</p>
-    </footer>
+
 
     <!-- Start Footer -->
 
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/footer.php'; ?>
+
+    <!-- End Footer -->
+
 
     <!-- Start JS Links -->
-    <script src="/GlobalJS/all.min.js"></script>
-    <script src="/GlobalJS/bootstrap.bundle.min.js"></script>
-    <script src="/GlobalJS/bootstrap.bundle.min.js.map"></script>
-    <script src="/Pages/courses/courses.js"></script>
-    <script src="/GlobalJS/common.js"></script>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php'; ?>
+    <script src="./courses.js"></script>
     <!-- End JS Links -->
 </body>
 

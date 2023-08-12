@@ -12,18 +12,14 @@
         <!-- End Google Fonts -->
 
         <!-- Start CSS Links -->
-        <link rel="stylesheet" href="/GlobalCSS/normalize.css">
-        <link rel="stylesheet" href="/GlobalCSS/all.min.css">
-        <link rel="stylesheet" href="/GlobalCSS/bootstrap.css.map">
-        <link rel="stylesheet" href="/GlobalCSS/bootstrap.min.css">
-        <link rel="stylesheet" href="/GlobalCSS/globalRules.css">
+        <?php include $_SERVER["DOCUMENT_ROOT"].'/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/cssLinks.php'; ?>
         <link rel="stylesheet" href="./signup.css">
         <!-- End CSS Links -->
 </head>
 <body>
 
     <div class="signup-logo text-center p-3">
-        <a href="/Pages/Home/Home.html"><span class="logo-text">UniVerse <i class="fa-solid fa-building-columns logo-icon"></i></span></a>
+        <a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Home/Home.php"><span class="logo-text">UniVerse <i class="fa-solid fa-building-columns logo-icon"></i></span></a>
     </div>
 
     <div class="signUp p-4">
@@ -56,21 +52,18 @@
                </div>
                <input type="submit" value="Sign Up" id="signUp">
            </form>
-           <div class="createAccount text-center mt-4"><a href="/Pages/Login/login.html" class="text-dark">Already have one? <span class="text-decoration-underline">Login</span></a></div>
+           <div class="createAccount text-center mt-4"><a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Login/login.php" class="text-dark">Already have one? <span class="text-decoration-underline">Login</span></a></div>
         </div>
         <div class="right">
             <div class="image">
-                <img src="/Pages/SignUp/images/signUp.svg" alt="">
+                <img src="./images/signUp.svg" alt="">
             </div>
         </div>
     </div>
 
 
     <!-- Start JS Links -->
-    <script src="/GlobalJS/all.min.js"></script>
-    <script src="/GlobalJS/bootstrap.bundle.min.js"></script>
-    <script src="/GlobalJS/bootstrap.bundle.min.js.map"></script>
-    <script src="/Pages/SignUp/signUp.js"></script>
+    <?php include $_SERVER["DOCUMENT_ROOT"].'/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php';?>
     <!-- End JS Links -->
 </body>
 </html>

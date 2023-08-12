@@ -1,7 +1,7 @@
 /* Start Landing Page */
 
 .landing-page {
-    background-image: url(/Pages/courses/images/landing.png);
+    background-image: url(./images/landing.png);
     width: calc(100vw);
     height: calc(100vh - 92.5px);
     background-size: cover;
@@ -135,8 +135,6 @@
 
 
 
-/* Start Lastest Courses */
-
 .latest-courses .container {
     display: flex;
     justify-content: center;
@@ -268,6 +266,7 @@
 }
 
 /* End Lastest Courses */
+
 
 /* Start Instructor */
 
