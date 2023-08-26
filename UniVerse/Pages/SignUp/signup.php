@@ -19,7 +19,7 @@
 <body>
 
     <div class="signup-logo text-center p-3">
-        <a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Home/Home.php"><span class="logo-text">UniVerse <i class="fa-solid fa-building-columns logo-icon"></i></span></a>
+        <a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Home/index.php"><span class="logo-text">UniVerse <i class="fa-solid fa-building-columns logo-icon"></i></span></a>
     </div>
 
     <div class="signUp p-4">

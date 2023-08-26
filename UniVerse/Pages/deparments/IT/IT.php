@@ -13,7 +13,7 @@
     <!-- End Google Fonts -->
 
     <!-- Start CSS Links -->
-    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/cssLinks.php'; ?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/cssLinks.php';?>
     <link rel="stylesheet" href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalCSS/swiper.css">
     <link rel="stylesheet" href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalCSS/departments.css">
     <link rel="stylesheet" href="./IT.css">
@@ -134,14 +134,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <a href=""><button class="myBtn sec-btn buyCourse w-100">Buy</button></a>
+                                <a href="../../courseDetails/courseDetails.php"><button class="myBtn sec-btn viewCourse w-100">View</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,14 +169,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -198,14 +204,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,14 +239,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -262,14 +274,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -305,19 +320,22 @@
                                 </div>
                             </div>
                             <div class="info-add p-2">
-                            <p class="mt-3">
-                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
-                            <span class="major">Major: Computer science</span>
-                            <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
+                                <p class="mt-3">
+                                    Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                                <span class="major">Major: Computer science</span>
+                                <a href="" class="text-white">
+                                    <div class="profile-details d-flex">
+                                        <img src="./images/nooraldeen-modified.png" alt="" />
+                                        <div class="name">
+                                            <h3 class="name fw-normal">Nooraldeen</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
                             </div>
-                            </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
-                        </div>
+                            </div>
                         </div>
                         <div class="card swiper-slide">
                             <div class="image-box">
@@ -335,19 +353,22 @@
                                 </div>
                             </div>
                             <div class="info-add p-2">
-                            <p class="mt-3">
-                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
-                            <span class="major">Major: Computer science</span>
-                            <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
+                                <p class="mt-3">
+                                    Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                                <span class="major">Major: Computer science</span>
+                                <a href="" class="text-white">
+                                    <div class="profile-details d-flex">
+                                        <img src="./images/nooraldeen-modified.png" alt="" />
+                                        <div class="name">
+                                            <h3 class="name fw-normal">Nooraldeen</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
                             </div>
-                            </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
-                        </div>
+                            </div>
                         </div>
                         <div class="card swiper-slide">
                             <div class="image-box">
@@ -365,19 +386,22 @@
                                 </div>
                             </div>
                             <div class="info-add p-2">
-                            <p class="mt-3">
-                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
-                            <span class="major">Major: Computer science</span>
-                            <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
+                                <p class="mt-3">
+                                    Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                                <span class="major">Major: Computer science</span>
+                                <a href="" class="text-white">
+                                    <div class="profile-details d-flex">
+                                        <img src="./images/nooraldeen-modified.png" alt="" />
+                                        <div class="name">
+                                            <h3 class="name fw-normal">Nooraldeen</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
                             </div>
-                            </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
-                        </div>
+                            </div>
                         </div>
                         <div class="card swiper-slide">
                             <div class="image-box">
@@ -395,19 +419,22 @@
                                 </div>
                             </div>
                             <div class="info-add p-2">
-                            <p class="mt-3">
-                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
-                            <span class="major">Major: Computer science</span>
-                            <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
+                                <p class="mt-3">
+                                    Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                                <span class="major">Major: Computer science</span>
+                                <a href="" class="text-white">
+                                    <div class="profile-details d-flex">
+                                        <img src="./images/nooraldeen-modified.png" alt="" />
+                                        <div class="name">
+                                            <h3 class="name fw-normal">Nooraldeen</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
                             </div>
-                            </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
-                        </div>
+                            </div>
                         </div>
                         <div class="card swiper-slide">
                             <div class="image-box">
@@ -425,19 +452,22 @@
                                 </div>
                             </div>
                             <div class="info-add p-2">
-                            <p class="mt-3">
-                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
-                            <span class="major">Major: Computer science</span>
-                            <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
-                                </div>
+                                <p class="mt-3">
+                                    Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                                <span class="major">Major: Computer science</span>
+                                <a href="" class="text-white">
+                                    <div class="profile-details d-flex">
+                                        <img src="./images/nooraldeen-modified.png" alt="" />
+                                        <div class="name">
+                                            <h3 class="name fw-normal">Nooraldeen</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
                             </div>
-                            </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
-                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -456,9 +486,9 @@
     <div class="best-selling section">
         <div class="container">
             <h2 class="main-heading">Best Selling<img src="./images/best seller.png" alt="" width="120px"></h2>
-            
+
             <div class="best-courses row gap-3 justify-content-center">
-            <div class="course col-12 col-md-5 col-lg-3">
+                <div class="course col-12 col-md-5 col-lg-3">
                     <div class="card">
                         <div class="image-box">
                             <img src="./images/java.png" alt="" />
@@ -479,18 +509,21 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            <div class="course col-12 col-md-5 col-lg-3">
+                <div class="course col-12 col-md-5 col-lg-3">
                     <div class="card">
                         <div class="image-box">
                             <img src="./images/software testing.jpg" alt="" />
@@ -511,18 +544,21 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            <div class="course col-12 col-md-5 col-lg-3">
+                <div class="course col-12 col-md-5 col-lg-3">
                     <div class="card">
                         <div class="image-box">
                             <img src="./images/OS.jpg" alt="" />
@@ -543,14 +579,17 @@
                                 Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
                             <span class="major">Major: Computer science</span>
                             <a href="" class="text-white">
-                            <div class="profile-details d-flex">
-                                <img src="./images/nooraldeen-modified.png" alt="" />
-                                <div class="name">
-                                    <h3 class="name fw-normal">Nooraldeen</h3>
+                                <div class="profile-details d-flex">
+                                    <img src="./images/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
                                 </div>
-                            </div>
                             </a>
-                            <button class="myBtn sec-btn buyCourse">Buy</button>
+                            <div class="btns d-flex gap-2 flex-column">
+                            <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                            <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
                         </div>
                     </div>
                 </div>

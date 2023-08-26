@@ -290,23 +290,23 @@ input::placeholder {
 }
 
 
-
 /* End Best Selling */
-
 
 
 /* Start sidebar */
 
 .offcanvas-body ul li {
     padding: 15px;
-    background-color: var(--main-color);
     margin-bottom: 8px;
+    background-color: #ddd;
     border-radius: 8px;
     transition: 0.2s;
+    color: black;
 }
 
 .offcanvas-body ul li:hover {
     background-color: var(--second-color);
+    color: white;
 }
 
 .offcanvas-body ul a {

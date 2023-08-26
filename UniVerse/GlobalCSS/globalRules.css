@@ -49,7 +49,7 @@ button {
 .main-heading {
     font-size: 100px;
     text-align: center;
-    -webkit-text-stroke: var(--main-color) 2px;
+    -webkit-text-stroke: var(--second-color) 2px;
     color: white;
 }
 
