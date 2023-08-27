@@ -1,5 +1,3 @@
-
-
 /*-------- 2.4 Course detail--------*/
 .secondary_nav {
   background: #eee;
@@ -49,6 +47,16 @@
   display: inline-block;
   margin-right: 20px;
   font-weight: 500;
+}
+
+#playBtn {
+  position: absolute;
+  color: white;
+  z-index: 100;
+  bottom: 50%;
+  right: 50%;
+  font-size: 50px;
+  transform: translate(50%, 50%);
 }
 
 .list_lessons ul {
