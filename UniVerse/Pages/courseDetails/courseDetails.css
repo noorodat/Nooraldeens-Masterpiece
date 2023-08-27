@@ -3,14 +3,17 @@
   background: #eee;
   padding: 15px 0;
 }
+
 .secondary_nav.is_stuck {
   z-index: 99;
   width: 100% !important;
   left: 0;
 }
+
 .secondary_nav ul {
   margin-bottom: 0;
 }
+
 .secondary_nav ul li {
   display: inline-block;
   margin-right: 20px;
@@ -32,17 +35,21 @@
   color: black;
   transition: var(--transition-duration);
 }
-.secondary_nav ul li a.active, .secondary_nav ul li a:hover {
+
+.secondary_nav ul li a.active,
+.secondary_nav ul li a:hover {
   color: rgba(0, 0, 0, 0.656);
 }
 
 .intro_title h2 {
   display: inline-block;
 }
+
 .intro_title ul {
   float: right;
   margin: 10px 0 0 0;
 }
+
 .intro_title ul li {
   display: inline-block;
   margin-right: 20px;
@@ -62,25 +69,30 @@
 .list_lessons ul {
   margin: 0;
 }
+
 .list_lessons ul li {
   border-bottom: 1px solid #ededed;
   padding: 5px 0;
 }
+
 .list_lessons ul li a {
   color: #555;
 }
+
 .list_lessons ul li a.video:before {
   font-family: "Font Awesome 5 Free";
   content: "\f04b";
   font-weight: 900;
   margin-right: 10px;
 }
+
 .list_lessons ul li a.txt_doc:before {
   font-family: "Font Awesome 5 Free";
   content: "\f15b";
   font-weight: 900;
   margin-right: 10px;
 }
+
 .list_lessons ul li span {
   float: right;
 }
@@ -93,7 +105,9 @@
   color: var(--second-color);
 }
 
-section#description, section#lessons, section#reviews {
+section#description,
+section#lessons,
+section#reviews {
   border-bottom: 3px solid #ededed;
   margin-bottom: 45px;
 }
@@ -112,11 +126,13 @@ section#reviews {
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
+
 @media (max-width: 991px) {
   #review_summary {
     margin-bottom: 15px;
   }
 }
+
 #review_summary strong {
   font-size: 42px;
   font-size: 2.625rem;
@@ -126,20 +142,24 @@ section#reviews {
 .reviews-container .progress {
   margin-bottom: 10px;
 }
+
 .reviews-container .progress-bar {
   background-color: var(--second-color);
 }
+
 .reviews-container .review-box {
   position: relative;
   margin-bottom: 25px;
   padding-left: 100px;
   min-height: 100px;
 }
+
 @media (max-width: 767px) {
   .reviews-container .review-box {
     padding-left: 0;
   }
 }
+
 .reviews-container .rev-thumb {
   position: absolute;
   left: 0px;
@@ -153,16 +173,19 @@ section#reviews {
   border-radius: 5px;
   overflow: hidden;
 }
+
 .reviews-container .rev-thumb img {
   width: 80px;
   height: auto;
 }
+
 @media (max-width: 767px) {
   .reviews-container .rev-thumb {
     position: static;
     margin-bottom: 10px;
   }
 }
+
 .reviews-container .rev-content {
   position: relative;
   padding: 25px 25px 0 25px;
@@ -172,6 +195,7 @@ section#reviews {
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
+
 .reviews-container .rev-info {
   font-size: 12px;
   font-size: 0.75rem;
@@ -190,6 +214,7 @@ section#reviews {
   border-radius: 5px;
   margin-bottom: 30px;
 }
+
 .box_detail .price {
   line-height: 1;
   border-bottom: 1px solid #ededed;
@@ -197,38 +222,47 @@ section#reviews {
   font-size: 2rem;
   font-weight: 600;
 }
+
 .box_detail .price .original_price {
   color: #3f9fff;
   font-weight: 400;
   font-size: 16px;
   font-size: 1rem;
 }
+
 .box_detail .price .original_price em {
   text-decoration: line-through;
   margin: 0 10px;
   font-style: normal;
 }
+
 .box_detail h3 {
   font-size: 20px;
   font-size: 1.25rem;
   margin: 25px 0 10px 0;
 }
+
 .box_detail ul {
   margin-bottom: 0;
 }
+
 .box_detail ul li {
   margin-bottom: 5px;
 }
+
 .box_detail ul li i {
   margin-right: 8px;
 }
+
 .box_detail figure {
   position: relative;
   background-color: #000;
 }
+
 .box_detail figure img {
   opacity: 0.8;
 }
+
 .box_detail figure span {
   position: absolute;
   display: block;
@@ -239,6 +273,7 @@ section#reviews {
   color: #fff;
   font-weight: 600;
 }
+
 .box_detail figure a i {
   background-color: black;
   background-color: rgba(0, 0, 0, 0.6);
@@ -265,6 +300,7 @@ section#reviews {
   transition: all 0.3s ease-in-out;
   z-index: 9;
 }
+
 .box_detail figure:hover i {
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
