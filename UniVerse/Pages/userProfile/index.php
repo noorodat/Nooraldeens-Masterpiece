@@ -34,7 +34,10 @@
               <div>3 <span class="d-block c-grey fs-14 mt-10">courses</span></div>
               <div>$60 <span class="d-block c-grey fs-14 mt-10">Earned</span></div>
             </div>
-            <a href="profile.php" class="visit d-block fs-14 w-fit"><button class="myBtn main-btn">Profile</button></a>
+            <div class="btns d-flex justify-content-between ">
+              <a href="profile.php" class="visit d-block fs-14 w-fit"><button class="myBtn main-btn">Profile</button></a>
+              <a href="../tutorDashboard/addCourse.php" class="visit d-block fs-14 w-fit"><button class="myBtn sec-btn">Add a course</button></a>
+            </div>
           </div>
           <!-- End Welcome Widget -->
 
@@ -166,7 +169,7 @@
         </div>
         <!-- Start Projects Table -->
         <div class="projects p-20 bg-white rad-10 m-20">
-          <h2 class="mt-0 mb-20">Students</h2>
+          <h2 class="mt-0 mb-20">Students Enrolled</h2>
           <div class="responsive-table">
             <table class="fs-15 w-full">
               <thead>

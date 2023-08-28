@@ -27,7 +27,6 @@
           <h2 class="mt-0 mb-10">General Info</h2>
           <p class="mt-0 mb-20 c-grey fs-15">General Information About Your Account</p>
           <div class="mb-20">
-            <label class="fs-14 c-grey d-block mb-10" for="first">Edit photo</label>
             <div class="image p-3">
                 <img src="./imgs/nooraldeen-modified.png" alt="" width="150px">
                 <label for="changePhoto"><i class="fa-regular fa-pen-to-square"></i></label>
@@ -47,7 +46,7 @@
             <input class="email b-none border-ccc p-10 rad-6 w-full mr-10" id="email" type="email" value="o@nn.sa" disabled />
             <a class="c-blue" href="#" id="changeLink">Change</a>
           </div>
-          <a href=""><button class="myBtn main-btn mt-4">Save</button></a>
+          <button class="myBtn main-btn mt-4" id="saveChanges">Save</button>
         </div>
         <!-- End Settings Box -->
         <!-- Start Settings Box -->
@@ -88,6 +87,7 @@
   <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php'; ?>
   <script src="./js/main.js"></script>
   <script src='./js/settings.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- End JS Links -->
 </body>
 
