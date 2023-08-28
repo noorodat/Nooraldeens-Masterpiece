@@ -1,7 +1,7 @@
 <div class="sidebar bg-white p-20 p-relative">
         <ul>
           <li>
-            <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.php">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.php">
               <i class="fa-regular fa-chart-bar fa-fw"></i>
               <span>Dashboard</span>
             </a>

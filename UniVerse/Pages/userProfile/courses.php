@@ -11,173 +11,206 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../GlobalCSS/departments.css">
   </head>
   <body>
     <div class="page d-flex">
-    <?php include('./sidebar.php'); ?>
+    
+    <?php include('./sidebar.php');?>
       <div class="content w-full">
       <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/navbar.php'; ?>
 
-        <h1 class="p-relative">Courses</h1>
-        <div class="courses-page d-grid m-20 gap-20">
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-01.jpg" alt="" />
-            <img class="instructor" src="imgs/team-01.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Mastering Web Design</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture
-              </p>
+        <h1 class="p-relative">Purchased Courses</h1>
+            <!-- Start Lateset Courses -->
+    <div class="latest-courses section sectionColor">
+    <div class="courses section position-relative">
+        <div class="container">
+            <div class="courses-box row gap-3 justify-content-center mt-3">
+                <div class="course col-12 col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="./imgs/data structures.jpg" alt="" />
+                        </div>
+                        <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                        <div class="price-ratings text-center mt-2">
+                            <div class="price">10$</div>
+                            <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="profile-details d-flex justify-content-center">
+                            <img src="./imgs/nooraldeen-modified.png" alt="" />
+                            <div class="name-job">
+                                <h3 class="name fw-normal">Nooraldeen</h3>
+                            </div>
+                        </div>
+                        <div class="info-add p-2">
+                            <p class="mt-3">
+                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                            <span class="major">Major: Computer science</span>
+                            <a href="" class="text-white">
+                                <div class="profile-details d-flex">
+                                    <img src="./imgs/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <a href=""><button class="myBtn sec-btn buyCourse w-100">Buy</button></a>
+                                <a href="../../courseDetails/courseDetails.php"><button class="myBtn sec-btn viewCourse w-100">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-12 col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="./imgs/data structures.jpg" alt="" />
+                        </div>
+                        <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                        <div class="price-ratings text-center mt-2">
+                            <div class="price">10$</div>
+                            <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="profile-details d-flex justify-content-center">
+                            <img src="./imgs/nooraldeen-modified.png" alt="" />
+                            <div class="name-job">
+                                <h3 class="name fw-normal">Nooraldeen</h3>
+                            </div>
+                        </div>
+                        <div class="info-add p-2">
+                            <p class="mt-3">
+                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                            <span class="major">Major: Computer science</span>
+                            <a href="" class="text-white">
+                                <div class="profile-details d-flex">
+                                    <img src="./imgs/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-12 col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="./imgs/data structures.jpg" alt="" />
+                        </div>
+                        <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                        <div class="price-ratings text-center mt-2">
+                            <div class="price">10$</div>
+                            <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="profile-details d-flex justify-content-center">
+                            <img src="./imgs/nooraldeen-modified.png" alt="" />
+                            <div class="name-job">
+                                <h3 class="name fw-normal">Nooraldeen</h3>
+                            </div>
+                        </div>
+                        <div class="info-add p-2">
+                            <p class="mt-3">
+                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                            <span class="major">Major: Computer science</span>
+                            <a href="" class="text-white">
+                                <div class="profile-details d-flex">
+                                    <img src="./imgs/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-12 col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="./imgs/data structures.jpg" alt="" />
+                        </div>
+                        <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                        <div class="price-ratings text-center mt-2">
+                            <div class="price">10$</div>
+                            <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="profile-details d-flex justify-content-center">
+                            <img src="./imgs/nooraldeen-modified.png" alt="" />
+                            <div class="name-job">
+                                <h3 class="name fw-normal">Nooraldeen</h3>
+                            </div>
+                        </div>
+                        <div class="info-add p-2">
+                            <p class="mt-3">
+                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                            <span class="major">Major: Computer science</span>
+                            <a href="" class="text-white">
+                                <div class="profile-details d-flex">
+                                    <img src="./imgs/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-12 col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="./imgs/data structures.jpg" alt="" />
+                        </div>
+                        <div class="course-name text-center mt-2 fw-bold">Data structures</div>
+                        <div class="price-ratings text-center mt-2">
+                            <div class="price">10$</div>
+                            <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="profile-details d-flex justify-content-center">
+                            <img src="./imgs/nooraldeen-modified.png" alt="" />
+                            <div class="name-job">
+                                <h3 class="name fw-normal">Nooraldeen</h3>
+                            </div>
+                        </div>
+                        <div class="info-add p-2">
+                            <p class="mt-3">
+                                Complete Data Structures Course: Build Strong Coding Foundations with In-Depth Concepts and Practical Applications.</p>
+                            <span class="major">Major: Computer science</span>
+                            <a href="" class="text-white">
+                                <div class="profile-details d-flex">
+                                    <img src="./imgs/nooraldeen-modified.png" alt="" />
+                                    <div class="name">
+                                        <h3 class="name fw-normal">Nooraldeen</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="btns d-flex gap-2 flex-column">
+                                <button class="myBtn sec-btn buyCourse w-100">Buy</button>
+                                <button class="myBtn sec-btn viewCourse w-100">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey">
-                <i class="fa-regular fa-user"></i>
-                950
-              </span>
-              <span class="c-grey">
-                <i class="fa-solid fa-dollar-sign"></i>
-                165
-              </span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-02.jpg" alt="" />
-            <img class="instructor" src="imgs/team-02.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Data Structure And Algorithms</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 1150</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 210</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-03.jpg" alt="" />
-            <img class="instructor" src="imgs/team-01.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Responsive Web Design</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 650</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 90</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-04.jpg" alt="" />
-            <img class="instructor" src="imgs/team-03.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Mastering Python</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 950</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 250</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-05.jpg" alt="" />
-            <img class="instructor" src="imgs/team-03.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">PHP Examples</h4>
-              <p class="description c-grey mt-15 fs-14">
-                PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 850</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 150</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-02.jpg" alt="" />
-            <img class="instructor" src="imgs/team-02.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Data Structure And Algorithms</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 1150</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 210</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-03.jpg" alt="" />
-            <img class="instructor" src="imgs/team-01.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Responsive Web Design</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 650</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 90</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-01.jpg" alt="" />
-            <img class="instructor" src="imgs/team-01.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Mastering Web Design</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Archticture
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 850</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 145</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-05.jpg" alt="" />
-            <img class="instructor" src="imgs/team-03.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">PHP Examples</h4>
-              <p class="description c-grey mt-15 fs-14">
-                PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 850</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 150</span>
-            </div>
-          </div>
-          <div class="course bg-white rad-6 p-relative">
-            <img class="cover" src="imgs/course-04.jpg" alt="" />
-            <img class="instructor" src="imgs/team-03.png" alt="" />
-            <div class="p-20">
-              <h4 class="m-0">Mastering Python</h4>
-              <p class="description c-grey mt-15 fs-14">
-                Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life
-              </p>
-            </div>
-            <div class="info p-15 p-relative between-flex">
-              <span class="title bg-blue c-white btn-shape">Course Info</span>
-              <span class="c-grey"> <i class="fa-regular fa-user"></i> 950</span>
-              <span class="c-grey"><i class="fa-solid fa-dollar-sign"></i> 250</span>
-            </div>
-          </div>
         </div>
+    </div>
+    </div>
+    <!-- End Latest Courses -->
       </div>
     </div>
+        <!-- Start JS Links -->
+        <?php include $_SERVER["DOCUMENT_ROOT"].'/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php';?>
+        <script src="./js/main.js"></script>
+    <!-- End JS Links -->
   </body>
 </html>

@@ -6,6 +6,11 @@
   --red-color: #f44336;
   --grey-color: #888;
 }
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -521,6 +526,19 @@ ul {
 .settings-page {
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
+
+.settings-page .image {
+  width: fit-content;
+  position: relative;
+}
+
+.settings-page .image svg {
+  position: absolute;
+  font-size: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
   .settings-page {
     grid-template-columns: minmax(100px, 1fr);
@@ -786,25 +804,45 @@ ul {
     flex-direction: column;
   }
 }
-.profile-page .skills-card {
+.profile-page .socials-card {
   flex-grow: 1;
 }
-.profile-page .skills-card ul li {
+.profile-page .socials-card ul li {
   padding: 15px 0;
 }
-.profile-page .skills-card ul li:not(:last-child) {
+.profile-page .socials-card ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
-.profile-page .skills-card ul li span {
+.profile-page .socials-card ul li span {
   display: inline-flex;
   padding: 4px 10px;
   background-color: #eee;
   border-radius: 6px;
   font-size: 14px;
 }
-.profile-page .skills-card ul li span:not(:last-child) {
+.profile-page .socials-card ul li span:not(:last-child) {
   margin-right: 5px;
 }
+
+.profile-page .socials-card ul li svg {
+  font-size: 25px;
+}
+
+.profile-page .socials-card ul li a {
+  color: black;
+}
+
+.activities a {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+}
+
+.activities a img {
+  border-radius: 10px;
+}
+
 .profile-page .activities {
   flex-grow: 2;
 }
@@ -937,48 +975,7 @@ ul {
   border-radius: 6px;
 }
 /* End Projects Page */
-/* Start Courses Page */
-.courses-page {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-@media (max-width: 767px) {
-  .courses-page {
-    grid-template-columns: minmax(200px, 1fr);
-    margin-left: 10px;
-    margin-right: 10px;
-    gap: 10px;
-  }
-}
-.courses-page .course {
-  overflow: hidden;
-}
-.courses-page .course .cover {
-  max-width: 100%;
-}
-.courses-page .course .instructor {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  top: 20px;
-  left: 20px;
-  border: 2px solid white;
-}
-.courses-page .course .description {
-  line-height: 1.6;
-}
-.courses-page .course .info {
-  border-top: 1px solid #eee;
-  font-size: 13px;
-}
-.courses-page .course .info .title {
-  position: absolute;
-  top: -13px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 13px;
-}
-/* End Courses Page */
+
 /* Start Friends Page */
 .friends-page {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -1665,6 +1662,7 @@ padding-top: 15px;
 .pricing-table-style-4 .pricing-row {
 padding: 5px 10px;
 }
+
 figure {
 margin: 0;
 display: block;

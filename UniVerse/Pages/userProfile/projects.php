@@ -236,5 +236,9 @@
         </div>
       </div>
     </div>
+        <!-- Start JS Links -->
+        <?php include $_SERVER["DOCUMENT_ROOT"].'/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php';?>
+        <script src="./js/main.js"></script>
+    <!-- End JS Links -->
   </body>
 </html>

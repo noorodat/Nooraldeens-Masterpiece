@@ -24,7 +24,7 @@
             <div class="intro p-20 d-flex space-between bg-eee">
               <div>
                 <h2 class="m-0">Welcome</h2>
-                <p class="c-grey mt-5">Nooraldeen</p>
+                <p class="c-grey mt-2">Nooraldeen</p>
               </div>
               <img class="hide-mobile" src="imgs/welcome.png" alt="" />
             </div>
@@ -34,7 +34,7 @@
               <div>3 <span class="d-block c-grey fs-14 mt-10">courses</span></div>
               <div>$60 <span class="d-block c-grey fs-14 mt-10">Earned</span></div>
             </div>
-            <a href="profile.php" class="visit d-block fs-14 bg-blue c-white w-fit btn-shape">Profile</a>
+            <a href="profile.php" class="visit d-block fs-14 w-fit"><button class="myBtn main-btn">Profile</button></a>
           </div>
           <!-- End Welcome Widget -->
 
@@ -221,5 +221,9 @@
         <!-- End Projects Table -->
       </div>
     </div>
+        <!-- Start JS Links -->
+        <?php include $_SERVER["DOCUMENT_ROOT"].'/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php';?>
+        <script src="./js/main.js"></script>
+    <!-- End JS Links -->
   </body>
 </html>
