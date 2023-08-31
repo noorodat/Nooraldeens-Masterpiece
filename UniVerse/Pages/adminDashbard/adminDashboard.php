@@ -168,22 +168,22 @@
                                 <ul class="vd_tab_nav nav ul_li_block" role="tablist">
                                     <li>
                                         <button class="active" data-bs-toggle="tab" data-bs-target="#tab_dashboard" type="button" role="tab" aria-selected="true">
-                                            Dashboard <i class="fa-solid fa-gauge"></i>
+                                        <i class="fa-solid fa-gauge"></i> Dashboard 
                                         </button>
                                     </li>
                                     <li>
                                         <button data-bs-toggle="tab" data-bs-target="#tab_products" type="button" role="tab" aria-selected="false">
-                                            Courses <i class="fa-solid fa-laptop"></i>
+                                        <i class="fa-solid fa-laptop"></i> Courses
                                         </button>
                                     </li>
                                     <li>
                                         <button data-bs-toggle="tab" data-bs-target="#tab_orders" type="button" role="tab" aria-selected="false">
-                                            Users <i class="fa-solid fa-users"></i>
+                                        <i class="fa-solid fa-users"></i> Users 
                                         </button>
                                     </li>
                                     <li>
                                         <button data-bs-toggle="tab" data-bs-target="#tab_profile" type="button" role="tab" aria-selected="false">
-                                            Profile <i class="fa-solid fa-user"></i>
+                                        <i class="fa-solid fa-user"></i> Profile
                                         </button>
                                     </li>
                                     <li class="w-100">
