@@ -322,11 +322,54 @@
     padding: 15px;
     resize: none;
     border-radius: 15px;
-    width: 100%;
+    width: 70%;
     opacity: 1;
     transition: 0.3s;
     border-width: 3px;
     border-color: var(--second-color);
+}
+
+.imageFigure {
+  max-width: 420px;
+  max-height: 390px;
+  overflow: hidden;
+}
+
+#addVideo,
+#addFile {
+  padding: 10px 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.custom-file-input {
+  display: inline-block;
+  background-color: var(--second-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-input:hover {
+  background-color: #723b4aee;;
+}
+
+.hidden {
+  display: none;
+}
+
+.saveVideo {
+  background-color: black;
+  padding: 10px 16px;
+  color: white;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.videoForm {
+  padding: 20px;
 }
 
 #course-description:focus::placeholder {

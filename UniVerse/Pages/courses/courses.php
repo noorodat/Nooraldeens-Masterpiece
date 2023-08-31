@@ -30,8 +30,6 @@
         <div class="text">
             <h2>Courses</h2>
             <p>From Students To Students</p>
-            <input type="text" class="search" placeholder="Search a Course">
-            <button>Search</button>
         </div>
     </div>
 
@@ -39,8 +37,17 @@
 
     <!-- Start Departments -->
     <div class="departments section">
-        <div class=" container">
+        <div class="container">
+            <div class="search__container">
+                <p class="search__title">
+                    Search for a course
+                </p>
+                <form action="" class="d-flex justify-content-center">
+                    <input class="search__input" type="text" placeholder="Search">
+                </form>
+            </div>
             <h2 class="main-heading">Departments</h2>
+
             <div class="departments-cards row justify-content-center gap-5">
                 <div class="department col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="image">
@@ -96,11 +103,8 @@
                         </div>
                         <h2 class="text-center fs-5">Analysis and Design of Algorithms</h2>
                         <span class="price">10$</span>
-                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
-                                alt="" width="30px">
+                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png" alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
@@ -108,24 +112,17 @@
                         <div class="img"><img src="./images/c++.png" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">C++</h2>
                         <span class="price">15$</span>
-                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
-                                alt="" width="30px">
+                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png" alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="./images/data structures.jpg" alt="img"
-                                draggable="false"></div>
+                        <div class="img"><img src="./images/data structures.jpg" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">Data Structures</h2>
                         <span class="price">10$</span>
-                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
-                                alt="" width="30px">
+                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png" alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
@@ -133,24 +130,17 @@
                         <div class="img"><img src="./images/java.png" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">Java</h2>
                         <span class="price">20$</span>
-                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
-                                alt="" width="30px">
+                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png" alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>
                     <li class="card">
-                        <div class="img"><img src="./images/software testing.jpg" alt="img"
-                                draggable="false"></div>
+                        <div class="img"><img src="./images/software testing.jpg" alt="img" draggable="false"></div>
                         <h2 class="text-center fs-5">Software Testing</h2>
                         <span class="price">15$ <small><del>$25</del></small></span>
-                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i></span>
-                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png"
-                                alt="" width="30px">
+                        <span class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                        <div class="mt-2 fs-6 course-publisher"><img src="./images/nooraldeen-modified.png" alt="" width="30px">
                             <a href="">Nooraldeen</a>
                         </div>
                     </li>

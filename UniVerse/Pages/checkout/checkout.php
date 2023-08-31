@@ -169,7 +169,7 @@
 								Total <span class="float-right">15$</span>
 							</div>
                             <div class="btns d-flex flex-column gap-2 mt-3">
-                            <a href="" class="btn_1 full-width"><button class="myBtn main-btn w-100">Checkout</button></a>
+                            <a href="" class="btn_1 full-width"><button class="myBtn main-btn w-100">Purchase</button></a>
                             </div>
 						</div>
 					</aside>

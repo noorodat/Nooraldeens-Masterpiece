@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.css">
     <!-- End Google Fonts -->
 
 
@@ -85,12 +86,14 @@
                                         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion_lessons">
                                             <div class="card-body">
                                                 <div class="list_lessons">
-                                                    <input type="file">
-                                                    <!-- <ul>
-                                                        <li><a href="" class="video">Health Science</a><span>00:59</span></li>
-                                                        <li><a href="" class="video">Health and Social Care</a><span>00:59</span></li>
-                                                        <li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
-                                                    </ul> -->
+                                                    <div class="btnsContainer d-flex gap-3">
+                                                        <div class="btns">
+                                                        <button id="addVideo" class="sec-btn">Add Video <i class="fa-solid fa-video"></i></button>
+                                                        </div>
+                                                        <div class="btns">
+                                                        <button id="addFile" class="sec-btn">Add File <i class="fa-solid fa-file"></i></button>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -119,8 +122,8 @@
 
                         <aside class="col-lg-4" id="sidebar">
                             <div class="box_detail">
-                                <figure>
-                                    <label for="coursePicture"><i class="fas fa-edit" id="playBtn"></i></label><img src="./images/default-image.jpg" alt="machine learning" class="img-fluid">
+                                <figure class="imageFigure">
+                                    <label for="coursePicture"><i class="fas fa-edit" id="playBtn"></i></label><img src="./images/default-image.jpg" alt="machine learning" class="img-fluid course-image">
                                     <input type="file" id="coursePicture" hidden accept="image/*">
                                 </figure>
                                 <div class="price-publisher p-2 d-flex align-items-center justify-content-between gap-2">
@@ -151,8 +154,7 @@
     <script src="../../GlobalJS/common_scripts.js"></script>
     <script src='./addCourse.js'></script>
     <script src="../../GlobalJS/main.js"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.js"></script>
 </body>
 
 </html>

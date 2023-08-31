@@ -42,15 +42,6 @@
             <!--/hero_in-->
 
             <div class="bg_color_1">
-                <nav class="secondary_nav">
-                    <div class="container">
-                        <ul class="clearfix">
-                            <li><a href="#description">Description</a></li>
-                            <li><a href="#lessons">Lessons</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                        </ul>
-                    </div>
-                </nav>
                 <div class="container section">
                     <div class="row">
                         <div class="col-lg-8">
@@ -295,7 +286,9 @@ A machine learning course teaches the principles and techniques for creating alg
                         <!-- /col -->
 
                         <aside class="col-lg-4" id="sidebar">
+                        <h3 style="">Machine Learning</h3>
                             <div class="box_detail">
+                                
                                 <figure>
                                     <a href="" class="video"><i class="fa-solid fa-play" id="playBtn"></i><img src="../courses/images/machine learning.jpg" alt="machine learning" class="img-fluid"></a>
                                 </figure>
@@ -307,7 +300,7 @@ A machine learning course teaches the principles and techniques for creating alg
                                 <a href="" class="text-dark"><img src="./images/nooraldeen-modified.png" alt="" width="30px"> Nooraldeen</a>
                                 </div>
                                 </div>
-                                <a href="../checkout/checkout.php" class=""><button class="myBtn main-btn" style="width: 100%">Purchase</button></a>
+                                <a href="../checkout/checkout.php" class=""><button class="myBtn main-btn" style="width: 100%">Checkout</button></a>
                             </div>
                         </aside>
                     </div>

@@ -105,12 +105,14 @@
 
     <div class="courses section position-relative">
         <div class="container">
-            <form action="" class="text-center">
-                <input type="text" placeholder="Search for a course" class="w-50">
-                <button type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
+        <div class="search__container">
+                <p class="search__title">
+                    Search for a course
+                </p>
+                <form action="" class="d-flex justify-content-center">
+                    <input class="search__input" type="text" placeholder="Search">
+                </form>
+            </div>
             <h2 class="main-heading mt-4 mb-4">Courses</h2>
             <div class="courses-box row gap-3 justify-content-center mt-3">
                 <div class="course col-12 col-md-5 col-lg-3">

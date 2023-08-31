@@ -5,7 +5,7 @@ let lessonsContainer = document.getElementById('accordion_lessons');
 
 addSection.addEventListener('click', () => {
     let sectionText = document.getElementById('addCourseSection').value;
-    
+
     if (sectionText.trim() !== '') {
         // Create new card elements
         let newCard = document.createElement('div');
@@ -53,4 +53,68 @@ addSection.addEventListener('click', () => {
         document.getElementById('addCourseSection').value = '';
     }
 });
+
+// Start Handle changing the course image
+
+let changePictureButton = document.getElementById('coursePicture');
+let courseImage = document.querySelector('.course-image');
+
+changePictureButton.onchange = () => {
+    if (changePictureButton.files && changePictureButton.files[0]) {
+        let reader = new FileReader();
+
+        reader.onload = (e) => {
+            courseImage.src = e.target.result;
+        };
+
+        reader.readAsDataURL(changePictureButton.files[0]);
+    }
+};
+
+// End Handle changing the course image
+
+// Start handle add video/file button
+
+let addVideoBtn = document.getElementById('addVideo');
+let addFileBtn = document.getElementById('addFile');
+
+addVideoBtn.onclick = () => {
+    Swal.fire({
+        title: 'Add a video',
+        html: `<form class="videoForm">
+          <input id="username-input" class="swal2-input" placeholder="Video title" required>
+          <label for="file-input" class="custom-file-input" style="display:block">
+            Choose a video
+            <input id="file-input" type="file" class="hidden" required>
+        </label>
+        <button type="submit" class="saveVideo">Save</button>
+        </form>
+        `,
+        showCancelButton: false,
+        showLoaderOnConfirm: true,
+        showConfirmButton: false, // Remove the "Ok" button
+        allowOutsideClick: () => !Swal.isLoading(),
+    });
+}
+
+addFileBtn.onclick = () => {
+    Swal.fire({
+        title: 'Add a File',
+        html: `<form class="videoForm">
+          <input id="username-input" class="swal2-input" placeholder="File name" required>
+          <label for="file-input" class="custom-file-input" style="display:block">
+            Choose a file
+            <input id="file-input" type="file" class="hidden" required>
+        </label>
+        <button type="submit" class="saveVideo">Save</button>
+        </form>
+        `,
+        showCancelButton: false,
+        showLoaderOnConfirm: true,
+        showConfirmButton: false, // Remove the "Ok" button
+        allowOutsideClick: () => !Swal.isLoading(),
+    });
+}
+
+// Endhandle add video/file button
 

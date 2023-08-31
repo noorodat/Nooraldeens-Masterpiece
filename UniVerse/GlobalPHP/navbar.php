@@ -6,12 +6,12 @@
             </div>
             <div id="menu"><i class="fa fa-bars"></i></div>
             <ul class="links" id="navLinks">
-                <li id="discountsLink"><a href="">Discounts</a></li>
                 <li><a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Home/index.php">Home</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="../about-us/about-us.php">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="../contact-us/contact-us.php">Contact</a></li>
                 <li id="login"><a href="/masterpiece/Nooraldeens-Masterpiece/UniVerse/Pages/Login/login.php">Login</a></li>
+                <li><a href="../userProfile/index.php"><i class="fa-solid fa-user fs-4" style="color:var(--second-color)"></i></a></li>
             </ul>
         </div>
 </nav>

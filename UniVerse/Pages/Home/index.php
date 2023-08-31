@@ -34,7 +34,7 @@
             <h2>UniVerse</h2>
             <p>Unleash Your University Experience: Discover, Connect, and Grow! Embrace a dynamic online platform
                 designed for students. Join us and embark on a transformative journey today!</p>
-            <a href=""><button class="myBtn main-btn">More</button></a>
+            <a href="../about-us/about-us.php"><button class="myBtn main-btn">More</button></a>
         </div>
     </div>
 
@@ -164,7 +164,7 @@
               </div>
               <figure class="pricing-row">Publish up to 3 courses</figure>
               <figure class="pricing-row"><span>Free Shipping at shop</span></figure>
-              <figure class="pricing-row">access 1 course for free</figure>
+              <figure class="pricing-row">Access 1 course for free</figure>
               <figure class="pricing-row">Create up to 3 teams</figure>
               <div class="pricing-footer">
                 <div class="gem-button-container gem-button-position-center"><a href="#" class="gem-button gem-green">Subscribe</a></div>
@@ -176,7 +176,7 @@
               <div class="pricing-price-row">
                 <div class="pricing-price-wrapper">
                   <div class="pricing-price">
-                    <div class="pricing-cost">30$</div>
+                    <div class="pricing-cost">$30</div>
                     <div class="time">Per semester</div>
                   </div>
                 </div>
@@ -186,7 +186,7 @@
               </div>
               <figure class="pricing-row">Publish up to 5 courses</figure>
               <figure class="pricing-row"><span>Free Shipping at shop</span></figure>
-              <figure class="pricing-row">access 2 courses for free</figure>
+              <figure class="pricing-row">Access 2 courses for free</figure>
               <figure class="pricing-row">Create up to 5 teams</figure>
               <div class="pricing-footer">
                 <div class="gem-button-container gem-button-position-center"><a class="gem-button gem-purpel">Subscribe</a></div>
@@ -199,7 +199,7 @@
               <div class="pricing-price-row">
                 <div class="pricing-price-wrapper">
                   <div class="pricing-price">
-                    <div class="pricing-cost">40$</div>
+                    <div class="pricing-cost">$40</div>
                     <div class="time" style="display:inline-block;">Per semester</div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@
               </div>
               <figure class="pricing-row">Publish unlimited courses</figure>
               <figure class="pricing-row"><span>Free Shipping at shop</span></figure>
-              <figure class="pricing-row">access 4 courses for free</figure>
+              <figure class="pricing-row">Access 4 courses for free</figure>
               <figure class="pricing-row">Create up to 10 teams</figure>
               <div class="pricing-footer">
                 <div class="gem-button-container gem-button-position-center"><a class="gem-button gem-pink">Subscribe</a></div>
