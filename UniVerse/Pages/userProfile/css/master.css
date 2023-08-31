@@ -42,11 +42,11 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--blue-color);
+  background-color: #c1c1c1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--blue-alt-color);
+  background-color: #c1c1c1;
 }
 
 .page {
