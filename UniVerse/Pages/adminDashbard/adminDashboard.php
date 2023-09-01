@@ -177,6 +177,11 @@
                                         </button>
                                     </li>
                                     <li>
+                                        <button data-bs-toggle="tab" data-bs-target="#tab_departments" type="button" role="tab" aria-selected="false">
+                                        <i class="fa-solid fa-graduation-cap"></i> Departments
+                                        </button>
+                                    </li>
+                                    <li>
                                         <button data-bs-toggle="tab" data-bs-target="#tab_orders" type="button" role="tab" aria-selected="false">
                                         <i class="fa-solid fa-users"></i> Users 
                                         </button>
@@ -518,6 +523,158 @@
                                     </div>
                                 </div>
 
+                                <div class="tab-pane fade" id="tab_departments" role="tabpanel">
+                                    <div class="recent_orders">
+                                        <div class="vd_title_wrap">
+                                            <h3>Departments</h3>
+                                        </div>
+                                        <div class="addCont"><button class="myBtn sec-btn" id="addDepartment">Add department</button></div>
+                                        <div class="vd_shadow p-0">
+                                            <div class="vd_table table-responsive">
+                                                <table class="table table-striped" id="departmentsTable">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Main Image</th>
+                                                            <th>Name</th>
+                                                            <th>Courses</th>
+                                                            <th>Students</th>
+                                                            <th>Cover image</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><img src="./images/IT.png" alt=""></td>
+                                                            <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><img src="./images/eng.png" alt=""></td>
+                                                        <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><img src="./images/med school.png" alt=""></td>
+                                                        <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><img src="./images/science2.png" alt=""></td>
+                                                        <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td><img src="./images/arch and design.png" alt=""></td>
+                                                        <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <td><img src="./images/lit and lang.png" alt=""></td>
+                                                        <td><span>IT</span></td>
+                                                            <td><span>15</span></td>
+                                                            <td><span>100</span></td>
+                                                            <td><img src="./images/itLanding.png" alt=""></td>
+                                                            <td>
+                                                                <ul class="btns_group ul_li">
+                                                                <li>
+                                                                        <button type="button" class="bg_green edit-delete">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button type="button" class="bg_orange edit-delete">
+                                                                            <i class="fas fa-trash-alt"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="tab-pane fade" id="tab_orders" role="tabpanel">
                                     <div class="recent_orders">
                                         <div class="search__container">
@@ -744,6 +901,8 @@
 
     <!-- Include custom js -->
     <script src="./js/custom.js"></script>
+
+    <?php include $_SERVER["DOCUMENT_ROOT"] . '/Masterpiece/Nooraldeens-Masterpiece/UniVerse/GlobalPHP/jsLinks.php'; ?>
 
 </body>
 

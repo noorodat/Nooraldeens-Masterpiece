@@ -18,12 +18,12 @@
               <span>Settings</span>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.php">
               <i class="fa-solid fa-diagram-project fa-fw"></i>
               <span>Projects</span>
             </a>
-          </li>
+          </li> -->
           <li>
             <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.php">
               <i class="fa-solid fa-graduation-cap fa-fw"></i>

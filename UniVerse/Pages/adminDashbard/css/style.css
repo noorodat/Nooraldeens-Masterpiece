@@ -542,3 +542,56 @@
   
   /* funfact section - end
   ================================================== */
+
+  table {
+    text-align: center;
+  }
+
+  #departmentsTable tbody tr img {
+    width: 150px;
+  }
+
+  .edit-delete {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .addCont {
+    padding: 10px 0;
+  }
+
+  .custom-file-input {
+    display: inline-block;
+    background-color: var(--second-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.saveVideo {
+  background-color: black;
+  padding: 10px 16px;
+  color: white;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
